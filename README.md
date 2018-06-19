@@ -75,6 +75,7 @@ C) Run the Python App
      - You can then run a program by invoking the Python interpreter manually as follows
        python firstprogram.py
 
+
    
 
 
