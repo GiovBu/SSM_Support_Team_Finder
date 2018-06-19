@@ -33,36 +33,36 @@ B) Python Requirements (OS: Windows 7 Service Pack 1 and Python 3.4.4)
    Install in your laptop Python version 2.7, 3.4 or 3.5 and the Python client library "watson-developer-cloud"
 
    Dependencies:   
-   asn1crypto==0.24.0
-   certifi==2018.1.18
-   cffi==1.11.4
-   chardet==3.0.4
-   cookies==2.2.1
-   cryptography==2.1.4
-   Cython==0.28.2
-   Django==2.0.3
-   docutils==0.14
-   idna==2.6
-   image==1.5.19
-   Kivy==1.10.1.dev0
-   Kivy-examples==1.10.1.dev0
-   Kivy-Garden==0.1.4
-   kivy.deps.angle==0.1.6
-   kivy.deps.gstreamer==0.1.12
-   kivy.deps.sdl2==0.1.17
-   Pillow==5.0.0
-   pycparser==2.18
-   pygame==1.9.3
-   Pygments==2.2.0
-   pyOpenSSL==17.5.0
-   pysolr==3.7.0
-   python-dateutil==2.6.1
-   pytz==2018.3
-   requests==2.18.4
-   responses==0.8.1
-   six==1.11.0
-   urllib3==1.22
-   watson-developer-cloud==1.0.2
+   *    asn1crypto==0.24.0
+   *    certifi==2018.1.18
+   *    cffi==1.11.4
+   *    chardet==3.0.4
+   *    cookies==2.2.1
+   *    cryptography==2.1.4
+   *    Cython==0.28.2
+   *    Django==2.0.3
+   *    docutils==0.14
+   *    idna==2.6
+   *    image==1.5.19
+   *    Kivy==1.10.1.dev0
+   *    Kivy-examples==1.10.1.dev0
+   *    *    Kivy-Garden==0.1.4
+   *    kivy.deps.angle==0.1.6
+   *    kivy.deps.gstreamer==0.1.12
+   *    kivy.deps.sdl2==0.1.17
+   *    Pillow==5.0.0
+   *    pycparser==2.18
+   *    pygame==1.9.3
+   *    *    Pygments==2.2.0
+   *    pyOpenSSL==17.5.0
+   *    pysolr==3.7.0
+   *    python-dateutil==2.6.1
+   *    pytz==2018.3
+   *    requests==2.18.4
+   *    responses==0.8.1
+   *    six==1.11.0
+   *    urllib3==1.22
+   *    watson-developer-cloud==1.0.2
    
 C) Run the Python App
 
