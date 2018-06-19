@@ -2,9 +2,9 @@
 SAP Solution Manager Support Team Finder Python App
 
 This app is developed in Python and allows you to query the Watson Natural Language Classifier (NLC) service in the IBM Cloud.
-App verified on: Windows 7 Professional Service Pack 1, macOs High Sierra 10.13.3, Ubuntu 14.04 and 17.10. 
+App tested on: Windows 7 Professional Service Pack 1, macOs High Sierra 10.13.3, Ubuntu 14.04 and 17.10. 
 
-The app has also been verified in the Android environment but using the Python Kivy library for the management of the graphical interface. Kivy is an open source software library for the rapid development of applications with new user interfaces, such as multi-touch apps.
+The app has also been tested on Android environment but using the Python Kivy library for the management of the graphical interface. Kivy is an open source software library for the rapid development of applications with new user interfaces, such as multi-touch apps.
 
 Run the app required to enter the text of an SAP ticket/incident and press the "Find" button.
 The app contacts the Watson NLC service, checking first that it is in "Available" status. The query will return a class whose name is the reference SAP module for the ticket (eg MM CO, FI, BW and so on).
@@ -15,18 +15,21 @@ The "Exit" button ends the execution of the app.
 
 REQUIREMENTS
 
+A) Watson requirements
+
 1) Create an instance of the NLC Watson service:
    1.1) Log in to IBM Cloud.
    1.2) Create an instance of the service:
    1.3) Click on Create Resource.
    1.4) In the IBM Cloud Catalog, select the Watson service you want to use. For example, select the Conversation service.
-   1.5) Type a unique name for the service instance in the Service name field. For example, type my-service-name. Leave the default values         for the other options.
+   1.5) Type a unique name for the service instance in the Service name field. For example, type my-service-name. Leave the default
+        values for the other options.
    1.6) Click Create.
 2) Copy your credentials from the Manage page. On the "Manage" page, you will see a Credentials pane.
 3) create and train a classifier. Prepare your data to train a classifier (suggested upload a csv file)
 4) Install in your laptop Python version 2.7, 3.4 or 3.5 and the Python client library "watson-developer-cloud" 
 
-Python Requirements (OS: Windows 7 Service Pack 1 and Python 3.4.4)
+B) Python Requirements (OS: Windows 7 Service Pack 1 and Python 3.4.4)
 
 asn1crypto==0.24.0
 certifi==2018.1.18
