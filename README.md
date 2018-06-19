@@ -18,13 +18,14 @@ REQUIREMENTS
 A) Watson Requirements
 
 1) Create an instance of the NLC Watson service:
-   1.1) Log in to IBM Cloud.
-   1.2) Create an instance of the service:
-   1.3) Click on Create Resource.
-   1.4) In the IBM Cloud Catalog, select the Watson service you want to use. For example, select the Conversation service.
-   1.5) Type a unique name for the service instance in the Service name field. For example, type my-service-name. Leave the default
+
+   * Log in to IBM Cloud.
+   * Create an instance of the service:
+   * Click on Create Resource.
+   * In the IBM Cloud Catalog, select the Watson service you want to use. For example, select the Conversation service.
+   * Type a unique name for the service instance in the Service name field. For example, type my-service-name. Leave the default
         values for the other options.
-   1.6) Click Create.
+   * Click Create.
 2) Copy your credentials from the Manage page. On the "Manage" page, you will see a Credentials pane.
 3) create and train a classifier. Prepare your data to train a classifier (suggested upload a csv file)
 
