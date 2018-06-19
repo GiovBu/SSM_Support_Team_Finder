@@ -46,14 +46,14 @@ B) Python Requirements (OS: Windows 7 Service Pack 1 and Python 3.4.4)
    *    image==1.5.19
    *    Kivy==1.10.1.dev0
    *    Kivy-examples==1.10.1.dev0
-   *    *    Kivy-Garden==0.1.4
+   *    Kivy-Garden==0.1.4
    *    kivy.deps.angle==0.1.6
    *    kivy.deps.gstreamer==0.1.12
    *    kivy.deps.sdl2==0.1.17
    *    Pillow==5.0.0
    *    pycparser==2.18
    *    pygame==1.9.3
-   *    *    Pygments==2.2.0
+   *    Pygments==2.2.0
    *    pyOpenSSL==17.5.0
    *    pysolr==3.7.0
    *    python-dateutil==2.6.1
