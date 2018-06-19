@@ -67,7 +67,8 @@ B) Python Requirements (OS: Windows 7 Service Pack 1 and Python 3.4.4)
 C) Run the Python App
 
    * Run a Python script under Windows with the Command Prompt
-     - C:\Python27\python.exe C:\Users\Username\Desktop\my_python_script.py
+   
+     C:\Python27\python.exe C:\Users\Username\Desktop\my_python_script.py
    
    * Run a Python Script Under Mac, Linux, BSD, Unix, etc
      - You must then make the script executable, using the following command
