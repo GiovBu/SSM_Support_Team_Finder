@@ -15,7 +15,7 @@ The "Exit" button ends the execution of the app.
 
 REQUIREMENTS
 
-A) Watson requirements
+A) Watson Requirements
 
 1) Create an instance of the NLC Watson service:
    1.1) Log in to IBM Cloud.
