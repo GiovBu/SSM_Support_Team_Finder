@@ -29,7 +29,7 @@ A) Watson Requirements
 2) Copy your credentials from the Manage page. On the "Manage" page, you will see a Credentials pane.
 3) create and train a classifier. Prepare your data to train a classifier (suggested upload a csv file)
 
-B) Python Requirements (OS: Windows 7 Service Pack 1 and Python 3.4.4)
+B) Python Requirements for Windows 7 Service Pack 1
    Install in your laptop Python version 2.7, 3.4 or 3.5 and the Python client library "watson-developer-cloud"
 
    Dependencies:   
@@ -74,9 +74,9 @@ C) Run the Python App
    
      Option 1: Call the interpreter
 
-      For Python 2: python <filename>.py
+        For Python 2: python <filename>.py
 
-      For Python 3: python3 <filename>.py
+        For Python 3: python3 <filename>.py
 
 
      Option 2: Let the script call the interpreter
