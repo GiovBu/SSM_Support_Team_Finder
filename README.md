@@ -75,7 +75,6 @@ C) Run the Python App
      Option 1: Call the interpreter
 
         For Python 2: python <filename>.py
-
         For Python 3: python3 <filename>.py
 
 
