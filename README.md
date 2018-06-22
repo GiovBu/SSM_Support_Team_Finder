@@ -2,12 +2,15 @@
 SAP Solution Manager Support Team Finder Python App
 
 This app is developed in Python and allows you to query the Watson Natural Language Classifier (NLC) service in the IBM Cloud.
+
 App tested on: Windows 7 Professional Service Pack 1, macOs High Sierra 10.13.3, Ubuntu 14.04 and 17.10. 
 
 The app has also been tested on Android environment but using the Python Kivy library for the management of the graphical interface. Kivy is an open source software library for the rapid development of applications with new user interfaces, such as multi-touch apps.
 
-Run the app required to enter the text of an SAP ticket/incident and press the "Find" button.
+By executing the app you are asked to enter the text of an SAP ticket/incident and press the "Find" button.
+
 The app contacts the Watson NLC service, checking first that it is in "Available" status. The query will return a class whose name is the reference SAP module for the ticket (eg MM CO, FI, BW and so on).
+
 It is shown the message "We recommend contacting the Support Team >>" followed by the name of the reference SAP module
 
 The "Clear" button allows you to clear the text box for a new text.
@@ -29,8 +32,8 @@ A) Watson Requirements
 2) Copy your credentials from the Manage page. On the "Manage" page, you will see a Credentials pane.
 3) create and train a classifier. Prepare your data to train a classifier (suggested upload a csv file)
 
-B) Python Requirements (OS: Windows 7 Service Pack 1 and Python 3.4.4)
-   Install in your laptop Python version 2.7, 3.4 or 3.5 and the Python client library "watson-developer-cloud"
+B) Python Requirements for Windows 7 Service Pack 1
+   Install in your laptop Python version 2.7 and the Python client library "watson-developer-cloud"
 
    Dependencies:   
    *    asn1crypto==0.24.0
@@ -66,22 +69,20 @@ B) Python Requirements (OS: Windows 7 Service Pack 1 and Python 3.4.4)
    
 C) Run the Python App
 
-   * Run a Python script under Windows with the Command Prompt
+   * Run a Python app under Windows with the Command Prompt
    
-     C:\Python27\python.exe C:\Users\Username\Desktop\my_python_script.py
+     C:\Python27\python.exe C:\Users\Username\Desktop\SSM_Support_Team_Finder.py
    
-   * Run a Python Script Under Mac, Linux, BSD, Unix, etc
-     - You must then make the script executable, using the following command
-       
-       chmod +x my_python_script.py
-     
-     - You can then run a program by invoking the Python interpreter manually as follows
-       
-       python firstprogram.py
+   * Run a Python app under Mac, Linux, BSD, Unix, etc
+     Option 1: Call the interpreter
+
+      For Python 2: python <filename>.py
+
+      For Python 3: python3 <filename>.py
 
 
-   
-
-
-
+     Option 2: Let the script call the interpreter
+      Make sure the first line of your file has #!/usr/bin/env python.
+      Make it executable - chmod +x <filename>.py.
+      And run it as ./<filename>.py
 
