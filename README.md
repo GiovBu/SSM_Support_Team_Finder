@@ -66,26 +66,19 @@ B) Python Requirements for Windows 7 Service Pack 1
    
 C) Run the Python App
 
-   * Run a Python script under Windows with the Command Prompt
+   * Run a Python app under Windows with the Command Prompt
    
-     C:\Python27\python.exe C:\Users\Username\Desktop\my_python_script.py
+     C:\Python27\python.exe C:\Users\Username\Desktop\SSM_Support_Team_Finder.py
    
-   * Run a Python Script Under Mac, Linux, BSD, Unix, etc
+   * Run a Python app under Mac, Linux, BSD, Unix, etc
    
      Option 1: Call the interpreter
 
-        For Python 2: python <filename>.py
-        For Python 3: python3 <filename>.py
-
+        For Python 2: python SSM_Support_Team_Finder.py
+  
+        For Python 3: python3 SSM_Support_Team_Finder.py
 
      Option 2: Let the script call the interpreter
       - Make sure the first line of your file has #!/usr/bin/env python.
-      - Make it executable - chmod +x <filename>.py.
-      - And run it as ./<filename>.py
-
-
-   
-
-
-
-
+      - Make it executable - chmod +x SSM_Support_Team_Finder.py.
+      - And run it as ./SSM_Support_Team_Finder.py
