@@ -71,13 +71,17 @@ C) Run the Python App
      C:\Python27\python.exe C:\Users\Username\Desktop\my_python_script.py
    
    * Run a Python Script Under Mac, Linux, BSD, Unix, etc
-     - You must then make the script executable, using the following command
-       
-       chmod +x my_python_script.py
-     
-     - You can then run a program by invoking the Python interpreter manually as follows
-       
-       python firstprogram.py
+     Option 1: Call the interpreter
+
+      For Python 2: python <filename>.py
+
+      For Python 3: python3 <filename>.py
+
+
+     Option 2: Let the script call the interpreter
+      Make sure the first line of your file has #!/usr/bin/env python.
+      Make it executable - chmod +x <filename>.py.
+      And run it as ./<filename>.py
 
 
    
