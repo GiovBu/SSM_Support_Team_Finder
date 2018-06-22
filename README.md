@@ -71,6 +71,7 @@ C) Run the Python App
      C:\Python27\python.exe C:\Users\Username\Desktop\my_python_script.py
    
    * Run a Python Script Under Mac, Linux, BSD, Unix, etc
+   
      Option 1: Call the interpreter
 
       For Python 2: python <filename>.py
