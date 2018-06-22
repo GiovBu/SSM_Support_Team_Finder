@@ -79,9 +79,9 @@ C) Run the Python App
 
 
      Option 2: Let the script call the interpreter
-      1) Make sure the first line of your file has #!/usr/bin/env python.
-      2) Make it executable - chmod +x <filename>.py.
-      3) And run it as ./<filename>.py
+      (1) Make sure the first line of your file has #!/usr/bin/env python.
+      (2) Make it executable - chmod +x <filename>.py.
+      (3) And run it as ./<filename>.py
 
 
    
