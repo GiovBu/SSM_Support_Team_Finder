@@ -27,7 +27,7 @@ The `Exit` button ends the execution of the app.
         values for the other options.
    * Click Create.
 2) Copy your credentials from the Manage page. On the "Manage" page, you will see a Credentials pane.
-3) create and train a classifier. Prepare your data to train a classifier (suggested upload a csv file)
+3) Create and train a classifier. Prepare your data to train a classifier (suggested upload a csv file)
 
 **B) Python Requirements for Windows 7 Service Pack 1**
 
@@ -85,5 +85,6 @@ The `Exit` button ends the execution of the app.
       - Make it executable - chmod +x SSM_Support_Team_Finder.py.
       - And run it as ./SSM_Support_Team_Finder.py
       
-      
+:book: **SUGGESTED DOCUMENTATION**
+
 [Building Cognitive Applications with IBM Watson Services: Natural Language Classifier](http://www.redbooks.ibm.com/redbooks/pdfs/sg248391.pdf).      
