@@ -13,7 +13,7 @@ It is shown the message "We recommend contacting the Support Team >>" followed b
 The `Clear` button allows you to clear the text box for a new text.
 The `Exit` button ends the execution of the app.
 
-**REQUIREMENTS**
+:pencil: **REQUIREMENTS**
 
 **A) Watson Requirements**
 
