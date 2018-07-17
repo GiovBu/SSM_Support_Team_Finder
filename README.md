@@ -1,7 +1,7 @@
 # SSM_Support_Team_Finder
 ## SAP Solution Manager Support Team Finder Python App
 
-This app is developed in Python and allows you to query the Watson Natural Language Classifier (NLC) service in the IBM Cloud.
+This app is written in Python programming language and allows you to query the Watson Natural Language Classifier (NLC) service in the IBM Cloud.
 App tested on: Windows 7 Professional Service Pack 1, macOs High Sierra 10.13.3, Ubuntu 14.04 and 17.10. 
 
 The app has also been tested on Android environment but using the Python Kivy library for the management of the graphical interface. Kivy is an open source software library for the rapid development of applications with new user interfaces, such as multi-touch apps.
