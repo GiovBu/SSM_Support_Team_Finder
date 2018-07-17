@@ -83,3 +83,6 @@ The `Exit` button ends the execution of the app.
       - Make sure the first line of your file has #!/usr/bin/env python.
       - Make it executable - chmod +x SSM_Support_Team_Finder.py.
       - And run it as ./SSM_Support_Team_Finder.py
+      
+      
+[Building Cognitive Applications with IBM Watson Services: Natural Language Classifier](http://www.redbooks.ibm.com/redbooks/pdfs/sg248391.pdf).      
