@@ -30,6 +30,7 @@ The `Exit` button ends the execution of the app.
 3) create and train a classifier. Prepare your data to train a classifier (suggested upload a csv file)
 
 **B) Python Requirements for Windows 7 Service Pack 1**
+
    Install in your laptop Python version 2.7, 3.4 or 3.5 and the Python client library "watson-developer-cloud"
 
    Dependencies:   
