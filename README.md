@@ -33,7 +33,8 @@ The `Exit` button ends the execution of the app.
 
    Install in your laptop Python version 2.7, 3.4 or 3.5 and the Python client library "watson-developer-cloud"
 
-   Dependencies:   
+   **Dependencies:**
+   
    *    asn1crypto==0.24.0
    *    certifi==2018.1.18
    *    cffi==1.11.4
