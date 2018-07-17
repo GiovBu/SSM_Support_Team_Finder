@@ -1,5 +1,5 @@
 # SSM_Support_Team_Finder
-SAP Solution Manager Support Team Finder Python App
+## SAP Solution Manager Support Team Finder Python App
 
 This app is developed in Python and allows you to query the Watson Natural Language Classifier (NLC) service in the IBM Cloud.
 App tested on: Windows 7 Professional Service Pack 1, macOs High Sierra 10.13.3, Ubuntu 14.04 and 17.10. 
@@ -13,9 +13,9 @@ It is shown the message "We recommend contacting the Support Team >>" followed b
 The "Clear" button allows you to clear the text box for a new text.
 The "Exit" button ends the execution of the app.
 
-REQUIREMENTS
+**REQUIREMENTS**
 
-A) Watson Requirements
+**A) Watson Requirements**
 
 1) Create an instance of the NLC Watson service:
 
@@ -29,7 +29,7 @@ A) Watson Requirements
 2) Copy your credentials from the Manage page. On the "Manage" page, you will see a Credentials pane.
 3) create and train a classifier. Prepare your data to train a classifier (suggested upload a csv file)
 
-B) Python Requirements for Windows 7 Service Pack 1
+**B) Python Requirements for Windows 7 Service Pack 1**
    Install in your laptop Python version 2.7, 3.4 or 3.5 and the Python client library "watson-developer-cloud"
 
    Dependencies:   
@@ -64,7 +64,7 @@ B) Python Requirements for Windows 7 Service Pack 1
    *    urllib3==1.22
    *    watson-developer-cloud==1.0.2
    
-C) Run the Python App
+**C) Run the Python App**
 
    * Run a Python app under Windows with the Command Prompt
    
