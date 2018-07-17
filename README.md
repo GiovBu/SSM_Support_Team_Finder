@@ -6,7 +6,7 @@ App tested on: Windows 7 Professional Service Pack 1, macOs High Sierra 10.13.3,
 
 The app has also been tested on Android environment but using the Python Kivy library for the management of the graphical interface. Kivy is an open source software library for the rapid development of applications with new user interfaces, such as multi-touch apps.
 
-Run the app required to enter the text of an SAP ticket/incident and press the "Find" button.
+Run the app required to enter the text of an SAP ticket/incident and press the `Find` button.
 The app contacts the Watson NLC service, checking first that it is in "Available" status. The query will return a class whose name is the reference SAP module for the ticket (eg MM CO, FI, BW and so on).
 It is shown the message "We recommend contacting the Support Team >>" followed by the name of the reference SAP module
 
