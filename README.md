@@ -8,7 +8,7 @@ The app has also been tested on Android environment but using the Python Kivy li
 
 Run the app required to enter the text of an SAP ticket/incident and press the `Find` button.
 The app contacts the Watson NLC service, checking first that it is in "Available" status. The query will return a class whose name is the reference SAP module for the ticket (eg MM, CO, FI, BW and so on).
-It is shown the message "We recommend contacting the Support Team >>" followed by the name of the reference SAP module
+Message "We recommend contacting the Support Team >>" is shown, followed by the name of the reference SAP module.
 
 The `Clear` button allows you to clear the textbox input for a new text.
 The `Exit` button ends the execution of the app.
